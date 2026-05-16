@@ -1,0 +1,59 @@
+:host {
+  display: block;
+}
+
+.home-hero {
+  display: flex;
+  justify-content: center;
+  background: var(--gray-900);
+  color: var(--gray-50);
+  border-radius: 0 0 45px 45px;
+
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 3rem 2rem;
+
+    img {
+      width: 250px;
+      height: 250px;
+      filter: drop-shadow(0 0 8px rgba(233, 4, 100, 0.5))
+        drop-shadow(0 0 20px rgba(247, 54, 227, 0.4)) drop-shadow(0 0 40px rgba(133, 20, 245, 0.3))
+        drop-shadow(0 0 70px rgba(92, 68, 228, 0.2));
+    }
+
+    .text {
+      p {
+        text-transform: uppercase;
+        color: var(--gray-200);
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 1350px;
+      height: 600px;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+
+      img {
+        width: 500px;
+        height: 500px;
+      }
+
+      .text {
+        text-align: left;
+
+        p {
+          font-size: 1.5rem;
+        }
+
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
