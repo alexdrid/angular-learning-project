@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="960"
+  height="960"
+  viewBox="0 0 960 960"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Angular Gradient Logo</title>
+  <desc id="desc">Angular logo mark with a pink to purple gradient.</desc>
+
+  <defs>
+    <linearGradient id="angularGradient" x1="130" y1="850" x2="830" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff004f" />
+      <stop offset="45%" stop-color="#e624cf" />
+      <stop offset="100%" stop-color="#8a18ff" />
+    </linearGradient>
+  </defs>
+
+  <g fill="url(#angularGradient)">
+    <polygon points="562.6,109.8 804.1,629.5 829.2,233.1" />
+    <polygon points="624.9,655.9 334.3,655.9 297.2,745.8 479.6,849.8 662,745.8" />
+    <polygon points="384.1,539.3 575.2,539.3 479.6,307" />
+    <polygon points="396.6,109.8 130,233.1 155.1,629.5" />
+  </g>
+</svg>

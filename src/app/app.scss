@@ -1,0 +1,26 @@
+.header {
+  background: var(--gray-900);
+  color: var(--gray-50);
+  padding: 0.5rem 1rem;
+
+  &_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: auto;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      height: 50px;
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 1350px;
+    }
+  }
+}
+
+main {
+  min-height: 100vh;
+}
