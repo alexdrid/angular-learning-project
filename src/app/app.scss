@@ -1,7 +1,6 @@
 .header {
   background: var(--gray-900);
   color: var(--gray-50);
-  padding: 0.5rem 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
   &_wrapper {
@@ -9,16 +8,18 @@
     align-items: center;
     gap: 0.5rem;
     margin: auto;
+    padding: 1rem 2rem;
 
     .logo {
-      display: flex;
-      align-items: center;
       height: 50px;
+
+      &:hover {
+        filter: var(--neon-glow);
+      }
     }
 
     @media screen and (min-width: 1024px) {
       max-width: 1350px;
-      padding: 0 2rem;
     }
   }
 }

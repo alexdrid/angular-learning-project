@@ -20,13 +20,13 @@
     img {
       width: 250px;
       height: 250px;
-      filter: drop-shadow(0 0 8px rgba(233, 4, 100, 0.5))
-        drop-shadow(0 0 20px rgba(247, 54, 227, 0.4)) drop-shadow(0 0 40px rgba(133, 20, 245, 0.3))
-        drop-shadow(0 0 70px rgba(92, 68, 228, 0.2));
+      filter: var(--neon-glow);
     }
 
     .text {
       p {
+        font-size: 0.8rem;
+        font-weight: 700;
         text-transform: uppercase;
         color: var(--gray-200);
       }
@@ -39,15 +39,17 @@
       justify-content: space-between;
 
       img {
-        width: 500px;
-        height: 500px;
+        width: 420px;
+        height: 420px;
       }
 
       .text {
         text-align: left;
+        text-wrap: wrap;
+        max-width: 60%;
 
         p {
-          font-size: 1.5rem;
+          font-size: 1rem;
         }
 
         h1 {

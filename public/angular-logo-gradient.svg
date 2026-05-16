@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="960"
-  height="960"
-  viewBox="0 0 960 960"
+  width="100%"
+  height="100%"
+  viewBox="130 110 700 740"
   role="img"
   aria-labelledby="title desc"
 >
   <title id="title">Angular Gradient Logo</title>
-  <desc id="desc">Angular logo mark with a pink to purple gradient.</desc>
+  <desc id="desc">Angular logo mark with a pink to purple gradient trimmed.</desc>
 
   <defs>
     <linearGradient id="angularGradient" x1="130" y1="850" x2="830" y2="110" gradientUnits="userSpaceOnUse">

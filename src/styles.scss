@@ -2,6 +2,19 @@
   --gray-50: rgba(248, 248, 248, 100%);
   --gray-200: rgba(220, 220, 220, 100%);
   --gray-900: rgba(21, 20, 23, 100%);
+
+  --red: 233, 4, 100;
+  --pink: 247, 54, 227;
+  --purple: 133, 20, 245;
+  --blue: 92, 68, 228;
+
+  --glow-opacity: 0.4;
+
+  --neon-glow:
+    drop-shadow(0 0 10px rgba(var(--red), var(--glow-opacity)))
+    drop-shadow(0 0 25px rgba(var(--pink), calc(var(--glow-opacity) * 0.8)))
+    drop-shadow(0 0 45px rgba(var(--purple), calc(var(--glow-opacity) * 0.6)))
+    drop-shadow(0 0 80px rgba(var(--blue), calc(var(--glow-opacity) * 0.4)));
 }
 
 *,
