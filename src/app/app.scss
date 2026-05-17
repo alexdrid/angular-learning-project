@@ -1,7 +1,7 @@
 .header {
-  background: var(--gray-900);
-  color: var(--gray-50);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgb(var(--dark-gray));
+  color: rgb(var(--white));
+  border-bottom: 1px solid rgba(var(--light-gray), 0.2);
 
   &_wrapper {
     display: flex;
