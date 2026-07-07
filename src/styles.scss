@@ -10,8 +10,7 @@
 
   --glow-opacity: 0.4;
 
-  --neon-glow:
-    drop-shadow(0 0 10px rgba(var(--red), var(--glow-opacity)))
+  --neon-glow: drop-shadow(0 0 10px rgba(var(--red), var(--glow-opacity)))
     drop-shadow(0 0 25px rgba(var(--pink), calc(var(--glow-opacity) * 0.8)))
     drop-shadow(0 0 45px rgba(var(--purple), calc(var(--glow-opacity) * 0.6)))
     drop-shadow(0 0 80px rgba(var(--blue), calc(var(--glow-opacity) * 0.4)));
