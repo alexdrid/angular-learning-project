@@ -1,6 +1,11 @@
-# AngularLearningProject
+# Angular Learning Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+A small Angular app for exploring and demonstrating core Angular concepts — components, routing, and styling — built with the latest Angular CLI tooling.
+
+## Pages
+
+- **Home** — landing page with a hero section and feature highlights.
+- **Learning** (`/learning`) — a grid of core Angular topics (components, signals, routing, dependency injection, forms, and HTTP client).
 
 ## Development server
 
@@ -57,3 +62,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
