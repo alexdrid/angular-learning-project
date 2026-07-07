@@ -1,0 +1,79 @@
+:host {
+  display: block;
+  color: rgb(var(--white));
+  background-color: rgb(var(--dark-gray));
+  min-height: 100vh;
+}
+
+.learning-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 2rem;
+  margin: auto;
+  text-align: center;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(var(--white), 0.9);
+    margin-bottom: 1rem;
+  }
+
+  .topics-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .topic-card {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+    background:
+      linear-gradient(rgb(var(--dark-gray)), rgb(var(--dark-gray))) padding-box,
+      linear-gradient(to right, rgb(var(--purple)), rgb(var(--pink))) border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+
+    h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: rgba(var(--white), 0.8);
+      line-height: 1.5;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .topics-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    min-height: 600px;
+    width: 100%;
+    max-width: 1350px;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}

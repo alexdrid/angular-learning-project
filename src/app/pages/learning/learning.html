@@ -1,0 +1,13 @@
+<section class="learning-page">
+  <h1>Angular Learning Topics</h1>
+  <p class="subtitle">Key concepts to master when learning Angular</p>
+
+  <div class="topics-grid">
+    @for (topic of topics; track topic.title) {
+      <div class="topic-card">
+        <h2>{{ topic.title }}</h2>
+        <p>{{ topic.description }}</p>
+      </div>
+    }
+  </div>
+</section>
