@@ -9,6 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "format": "prettier --write .",
+    "check-format": "prettier --check .",
     "prepare": "husky"
   },
   "private": true,

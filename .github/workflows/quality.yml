@@ -19,3 +19,27 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run lint
+  check-format:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v7
+    - name: Use Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: 24.x
+        cache: 'npm'
+    - run: npm install
+    - run: npm run check-format
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v7
+    - name: Use Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: 24.x
+        cache: 'npm'
+    - run: npm install
+    - run: npm run build
