@@ -1,0 +1,45 @@
+:host {
+  display: block;
+  color: rgb(var(--white));
+  background-color: rgb(var(--dark-gray));
+  min-height: 100vh;
+}
+
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 2rem;
+  margin: auto;
+  text-align: center;
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(var(--white), 0.9);
+  }
+
+  p {
+    color: rgba(var(--white), 0.8);
+  }
+
+  .home-link {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: rgb(var(--white));
+    text-decoration: none;
+
+    background:
+      linear-gradient(rgb(var(--dark-gray)), rgb(var(--dark-gray))) padding-box,
+      linear-gradient(to right, rgb(var(--purple)), rgb(var(--pink))) border-box;
+  }
+}
