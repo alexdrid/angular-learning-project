@@ -30,7 +30,7 @@ jobs:
       - name: Add SPA fallback
         run: cp dist/angular-learning-project/browser/index.html dist/angular-learning-project/browser/404.html
       - uses: actions/configure-pages@v6
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist/angular-learning-project/browser
 
