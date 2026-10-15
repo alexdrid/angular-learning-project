@@ -20,7 +20,7 @@ describe('Learning', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should render a list with 7 items', () => {
-    expect(component.topics.length).toBe(7);
+  it('should render a list with 6 items', () => {
+    expect(component.topics.length).toBe(6);
   });
 });
